@@ -25,17 +25,16 @@ RFID kart veya anahtarlık okutulduğunda Arduino kartın UID değerini okur. UI
 
 ## Gerekli Malzemeler
 
-| Malzeme | Adet | Açıklama | Link |
-|---|---:|---|---|
-| Arduino UNO R3 Klon | 1 | Ana kontrol kartı | [Ürün](https://robomer.com/arduino-uno-r3-klon-usb-kablo-hediyeli-usb-chip-ch340) |
-| RC522 RFID Modül | 1 | Kart ve anahtarlık okuma | [Blog](https://robomer.com/blog/mfrc522-nedir-nasil-calisir-arduino-ile-rfid-kart-okuyucu-kullanimi) |
-| RFID Kart / Anahtarlık | 1+ | Yetkili giriş için | Set içeriği |
-| LED | 1 | Doğru kart okutulduğunda yanar | [Ürün](https://robomer.com/5mm-kirmizi-led-10-adet) |
-| 1K Direnç | 1 | LED akımını sınırlandırır | [Ürün](https://robomer.com/1-4w-1k-direnc-paketi---10-adet) |
-| Breadboard | 1 | Devre kurulum alanı | [Ürün](https://robomer.com/orta-boy-breadboard-400-pin) |
-| Jumper Kablo | Birkaç adet | Bağlantılar için | [Ürün](https://robomer.com/40-adet-erkek-disi-jumper-kablo-20cm) |
 
----
+| Malzeme | Adet | Açıklama | Ürün Linki | Blog Linki |
+|---|---:|---|---|---|
+| Arduino UNO R3 Klon | 1 | Ana kontrol kartı | [Ürün](https://robomer.com/arduino-uno-r3-klon-usb-kablo-hediyeli-usb-chip-ch340) | [Arduino UNO R3 Klon Nedir?](https://robomer.com/blog/arduino-uno-r3-nedir) |
+| RC522 RFID Modül | 1 | Kart ve anahtarlık okuma işlemi için kullanılır | [Ürün ](https://robomer.com/robomer-rc522-nfc-rfid-anahtarlik-ve-kart-seti-1356-mhz) | [MFRC522 / RC522 RFID Modül Nedir?](https://robomer.com/blog/mfrc522-nedir-nasil-calisir-arduino-ile-rfid-kart-okuyucu-kullanimi) |
+| RFID Kart / Anahtarlık | 1+ | Yetkili giriş için kullanılır | Set içeriği | [RFID Kart Okuyucu Kullanımı](https://robomer.com/blog/mfrc522-nedir-nasil-calisir-arduino-ile-rfid-kart-okuyucu-kullanimi) |
+| LED | 1 | Doğru kart okutulduğunda yanar | [Ürün](https://robomer.com/5mm-kirmizi-led-10-adet) 
+| 1K Direnç | 1 | LED akımını sınırlandırır | [Ürün](https://robomer.com/1-4w-1k-direnc-paketi---10-adet) 
+| Breadboard | 1 | Devreyi lehim yapmadan kurmak için kullanılır | [Ürün](https://robomer.com/orta-boy-breadboard-400-pin) 
+| Jumper Kablo | Birkaç adet | Arduino, RC522 modül, LED ve breadboard bağlantıları için kullanılır | [Ürün](https://robomer.com/40-adet-erkek-disi-jumper-kablo-20cm) 
 
 ## Devre Bağlantısı
 
@@ -99,7 +98,7 @@ byte authorizedUIDs[][4] = {
 
 ## Blog ve GitHub
 
-- Blog: [https://robomer.com/blog/arduino-ile-rfid-kart-kontrollu-led-projesi](https://robomer.com/blog/arduino-ile-rfid-kart-kontrollu-led-projesi)
+- Blog: [https://robomer.com/blog/arduino-ile-rfid-kart-kontrollu-led-projesi](https://robomer.com/blog/arduino-ile-rfid-kart-kontrollu-led)
 - GitHub: [https://github.com/Robomer-com/arduino-rfid-kart-ile-led-kontrolu](https://github.com/Robomer-com/arduino-rfid-kart-ile-led-kontrolu)
 
 ---
